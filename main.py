@@ -12,8 +12,15 @@ elif user_option == 'piedra':
     print('computer gano!')
 elif user_option == 'papel':
   if computer_option == 'piedra':
-    print('papel gana a tijera')
+    print('papel gana a piedra')
     print('user gano!')
   else:
     print('tijera gana a papel')
-    p
+    print('Computer gano')
+elif user_option == 'tijera':
+  if computer_option == 'papel':
+    print('tijera ganan a papel')
+    print('user gano')
+  else:
+    print('piedra gana a tijera')
+    print('computer gano!')
