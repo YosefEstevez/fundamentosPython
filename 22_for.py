@@ -45,4 +45,5 @@ people = [
 
 for person in people:
   print('name =>', person['name'])
-  print('age =>', person['age'])
+  """print('age =>', person['age'])"""
+

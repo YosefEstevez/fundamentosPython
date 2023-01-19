@@ -9,9 +9,9 @@ rounds = 1
 
 while True:
 
-    print('*' * 10)
+    print('*' * 30)
     print('ROUND', rounds)
-    print('*' * 10)
+    print('*' * 30)
 
     print('computer_wins', computer_wins)
     print('user_wins', user_wins)
